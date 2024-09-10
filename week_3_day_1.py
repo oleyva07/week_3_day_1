@@ -50,15 +50,19 @@
 # # Review
 # create variables for the following :
 # 1. age
+age = 16
 # 2. name
+name = "Hunter"
 # 3. song
+song = "Knock Knock"
 # 4. food
+food = "pizza"
 # 5. number
-
+number = 45
 
 # #now include the variables you just made print in the following...
 
-
+print("Once upon a time, there was a" , age , "old coder named" , name + "." , name , "who liked to hum the song" , song , "while coding." , "It was so annoying that their teammates would throw" , food , "until" , name , "would stop singing." , "Still" , name , "was the best coder on the team and could write" , number , "lines of code every day." , "Maybe" , song , "was" , name + "'s secret power?" )
 # Once upon a time, there was a [age] old coder named [name].
 
 
@@ -70,14 +74,16 @@
 
 
 
+number1 = 100
+number2 = 200
+number3 = 300
+number4 = 400
+number5 = 500
 
+# print(str(number1),str(number2),str(number3),str(number4),str(number5))
 
-
-
-
-
-
-
+# f strings
+print(f"{number1},{number2},{number3},{number4},{number5}")
 
 
 
